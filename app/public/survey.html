@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center"><span class="fa fa-fire"></span> Friend Finder</h1>
+      <hr>
+      <h2 class="text-center">Answer some questions and find a new friend squad!</h2>
+      <br>
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            About You
+          </div>
+          <div class="card-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="image">Link to Photo Image</label>
+                <input type="text" class="form-control" id="image">
+              </div>
+<!-- insert questions here -->
+<hr>
+<h3>Question 1</h3>
+<h4>Your mind is always buzzing with unexplored ideas and plan</h4>
+<select class="form-control" name="q1" id="q1">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+ <h3>Question 2</h3> 
+<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+<select class="form-control" name="q2" id="q2">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+  </select>
+<h3>Question 3</h3>
+<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+<select class="form-control" name="q3" id="q3">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 4</h3>
+<h4>You rarely do something just out of sheer curiosity.</h4>
+<select class="form-control" name="q4" id="q4">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 5</h3>
+<h4>People can rarely upset you.</h4>
+<select class="form-control" name="q5" id="q5">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 6</h3>
+<h4>It is often difficult for you to relate to other people’s feelings.</h4>
+<select class="form-control" name="q6" id="q6">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 7</h3>
+<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+<select class="form-control" name="q7" id="q7">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 8</h3>
+<h4>You rarely get carried away by fantasies and ideas.</h4>
+<select class="form-control" name="q8" id="q8">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 9</h3>
+<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+<select class="form-control" name="q9" id="q9">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>
+<h3>Question 10</h3>
+<h4>You feel more energetic after spending time with a group of people.</h4>
+<select class="form-control" name="q10" id="q10">
+  <option value="1">1 (Strongly Disagree)</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4'">4</option>
+  <option value="5">5 (Strongly Agree)</option>
+</select>             
+</div>
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+          <p><a href="/app/data/friends.js">API Table Link</a> | <a href="/api/waitlist">Git Hub Repo</a>
+        </div>
+      </footer>
+  </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    // Here we grab the form elements
+    var newFriend = {
+      
+     name: $("#name").val().trim(),
+     image: $("#image").val().trim(),  
+     scores: []
+    };
+
+    
+
+    for (let index = 1; index < 11; index++) {
+      newFriend.scores.push($("#q" + index).val());
+      
+      
+    }
+      
+    console.log(newFriend);
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+
+    $.post("/api/friends", newFriend,
+      function(data) {
+        console.log(data);
+        // If a table is available... tell user they are booked.
+        if (data) {
+          alert("Yay! You are officially booked!");
+        }
+
+        // If a table is available... tell user they on the waiting list.
+        else {
+          alert("Sorry you are on the wait list");
+        }
+
+        // Clear the form when submitting
+         
+    //  scores: []
+    //     $("#name").val("");
+    //     $("#image").val("");
+        
+    //     for (let index = 1; index < 11; index++) {
+    //   scores.push($("#q" + index).val(""));
+      
+      
+    // }
+
+      });
+
+  });
+
+</script>
